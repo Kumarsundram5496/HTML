@@ -1,0 +1,26 @@
+ul{
+    list-style-type: none;
+    display: block;
+}
+#logoimg{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-top: 18px;
+}
+#Vcode{
+    display: flex;
+    justify-content: space-around;
+}
+#mainHeader{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    padding: 5px;
+    display: inline;
+    text-decoration-thickness: 10px;
+}
+#Search{
+    margin-top: 10px;
+}
