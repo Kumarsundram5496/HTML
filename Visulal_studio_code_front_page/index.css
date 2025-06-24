@@ -5,7 +5,7 @@ ul{
 #logoimg{
     width: 20px;
     height: 20px;
-    margin-right: 5px;
+    margin-right: 10px;
     margin-top: 18px;
 }
 #Vcode{
@@ -15,6 +15,8 @@ ul{
 #mainHeader{
     display: flex;
     justify-content: space-around;
+    background-color: #333;
+    color: #ccc;;
 }
 li{
     padding: 5px;
@@ -23,4 +25,16 @@ li{
 }
 #Search{
     margin-top: 10px;
+    border-radius: 10px;
+}
+button{
+    background-color: #0078d4;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 5px;
+    color: white;
+}
+li:hover{
+    color: white;
+    cursor: pointer;
 }
